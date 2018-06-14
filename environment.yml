@@ -1,0 +1,17 @@
+name: youtube-recommend
+dependencies:
+  - 'anaconda::h5py'
+  - 'anaconda::jupyter'
+  - 'anaconda::matplotlib'
+  - 'anaconda::numpy'
+  - 'anaconda::pandas'
+  - 'anaconda::python=3.6'
+  - 'anaconda::scipy'
+  - 'anaconda::scikit-learn'
+  - 'anaconda::seaborn'
+  - 'anaconda::setuptools'
+  - pip:
+      - autopep8
+      - keras
+      - pylint
+      - tensorflow
